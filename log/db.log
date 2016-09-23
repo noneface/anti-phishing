@@ -1,0 +1,23 @@
+Thu Sep 22 15:04:50.957 [initandlisten] MongoDB starting : pid=26528 port=27017 dbpath=/~/anti-phishing/scan/db 64-bit host=bsdr
+Thu Sep 22 15:04:50.957 [initandlisten] db version v2.4.10
+Thu Sep 22 15:04:50.957 [initandlisten] git version: nogitversion
+Thu Sep 22 15:04:50.957 [initandlisten] build info: Linux julia 3.16.0-4-amd64 #1 SMP Debian 3.16.7-ckt2-1 (2014-12-08) x86_64 BOOST_LIB_VERSION=1_55
+Thu Sep 22 15:04:50.957 [initandlisten] allocator: tcmalloc
+Thu Sep 22 15:04:50.957 [initandlisten] options: { dbpath: "/~/anti-phishing/scan/db", logpath: "/root/anti-phishing/scan/log/db.log" }
+Thu Sep 22 15:04:50.957 [initandlisten] exception in initAndListen: 10296 
+*********************************************************************
+ ERROR: dbpath (/~/anti-phishing/scan/db) does not exist.
+ Create this directory or give existing directory in --dbpath.
+ See http://dochub.mongodb.org/core/startingandstoppingmongo
+*********************************************************************
+, terminating
+Thu Sep 22 15:04:50.957 dbexit: 
+Thu Sep 22 15:04:50.957 [initandlisten] shutdown: going to close listening sockets...
+Thu Sep 22 15:04:50.957 [initandlisten] shutdown: going to flush diaglog...
+Thu Sep 22 15:04:50.957 [initandlisten] shutdown: going to close sockets...
+Thu Sep 22 15:04:50.957 [initandlisten] shutdown: waiting for fs preallocator...
+Thu Sep 22 15:04:50.957 [initandlisten] shutdown: lock for final commit...
+Thu Sep 22 15:04:50.957 [initandlisten] shutdown: final commit...
+Thu Sep 22 15:04:50.957 [initandlisten] shutdown: closing all files...
+Thu Sep 22 15:04:50.957 [initandlisten] closeAllFiles() finished
+Thu Sep 22 15:04:50.957 dbexit: really exiting now
